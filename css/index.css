@@ -1,0 +1,767 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 40px;
+    height: 40px;
+    border: 1px solid 	#DC143C;
+    border-radius: 2px;
+    margin-left: 5px;
+    /* padding-top: 2px; */
+}
+.divider{
+    border: 2px solid 	#DC143C;
+    margin: 8px;
+}
+.first i{
+    margin-top: 30px;
+    font-size: xx-large;
+    margin-left: 20px;
+    color: 	#DC143C ;
+    display: none;
+}
+h1{
+    color: 	#DC143C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 18%;
+    margin-top: -34px;
+}
+/* #upUl{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: -22px;
+    margin-left: 10px;
+}
+#upUl li{
+    display: inline-block;
+}
+#upUl li a{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+} */
+#downUl{
+    display: none;
+    list-style-type: none;
+    float: right;
+    /* margin-top: -24px; */
+} 
+#downUl li{
+    display: inline-block;
+}
+#downUl li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .text2{
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  .btn1 button{
+    color: #f2f2f2;
+    background-color: 	#DC143C;
+    border: 1px solid 	#DC143C;
+    border-radius: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 120px;
+    margin-left: 100px;
+    text-align: center;
+  }
+  .btn2 button{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 120px;
+    margin-left: 200px;
+    text-align: center;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    margin-top: 10px;
+  }
+  .fade img{
+    background-size: cover;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .left{
+    background-color: rgb(207, 198, 198);
+  }
+  .left h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .left h4{
+    font-size: 16px;
+    padding: 10px;
+    color: 	#DC143C;
+  }
+  .left p{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .left button{
+    color: white;
+    padding: 8px;
+    background-color: 	#DC143C;
+    border: 1px solid 	#DC143C;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .right{
+    background-color: 	#DC143C;
+    margin-top: 10px;
+  }
+  .fa-solid{
+    margin-left: 10px;
+    text-align: center;
+    color: 	#DC143C;
+   
+  }
+  .right h3 i{
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+  }
+  .right h3{
+    margin-left: 10px;
+    padding-top: 15px;
+  }
+  .right p{
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 15px;
+  }
+  .sixbox h2{
+    text-align: center;
+    padding: 10px;
+  }
+  .three-top div{
+    background-color: rgb(207, 198, 198);
+    margin: 10px;
+    width: 260px;
+    height: 200px;
+    margin-left: 60px;
+  }
+  /* .three-top div::after{
+    content: '';
+    width: 100%;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    box-shadow: 0px -10px 5px rgb(179, 179, 179);
+    bottom: -50px;
+    left: 0px;
+    border-radius: 100% 100% 0 0 ;
+    transition-duration: 0.3s;
+    height: 50px;
+  }
+  .three-top div:hover::after{
+    bottom: -25px;
+  } */
+  .three-top i{
+    background-color: 	#DC143C;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 37%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .three-top h3{
+    text-align: center;
+    padding: 10px;
+  }
+  .three-top p{
+    text-align: center;
+    padding: 10px;
+  }
+  .three-bottom div{
+    background-color: rgb(207, 198, 198);
+    margin: 10px;
+    width: 260px;
+    height: 200px;
+    margin-left: 60px;
+  }
+  .three-bottom i{
+    background-color: 	#DC143C;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 37%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .three-bottom h3{
+    text-align: center;
+    padding: 10px;
+  }
+  .three-bottom p{
+    text-align: center;
+    padding: 10px;
+  }
+  .threebox h2{
+    text-align: center;
+    padding: 10px;
+  }
+  .threebox-left{
+    background-color: rgb(207, 198, 198);
+  }
+  .threebox-left i{
+    background-color: 	#DC143C;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .threebox-left h3{
+    padding: 10px;
+  }
+  .threebox-left p{
+    padding: 10px;
+  }
+  .threebox-middle img{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .threebox-right{
+    background-color: rgb(207, 198, 198);
+  }
+  .threebox-right i{
+    background-color: 	#DC143C;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .threebox-right h3{
+    padding: 10px;
+  }
+  .threebox-right p{
+    padding: 10px;
+  }
+  .para{
+    background-color: 	#DC143C;
+    margin-bottom: 10px;
+  }
+  .para p{
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  .para button{
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 34%;
+    border-radius: 18px;
+    margin-bottom: 20px;
+  }
+  .leftbox{
+    background-color: rgb(207, 198, 198);
+    margin-top: 10px;
+  }
+  .leftbox h2{
+    font-size: 22px;
+    padding: 10px;
+  }
+  .leftbox p{
+    padding: 10px;
+  }
+  .leftbox input{
+    padding: 8px;
+  }
+  .leftbox select{
+    padding: 8px;
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .leftbox button{
+    background-color: 	#DC143C;
+    color: white;
+    padding: 8px;
+    border: 1px solid 	#DC143C;
+    width: 43%;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  .rightbox img{
+    width: 100%;
+    height: 260px;
+    margin-top: 10px;
+  }
+  .threeimg h2{
+    text-align: center;
+    padding: 8px;
+  }
+  .pics img{
+    width: 250px;
+    height: 250px;
+    margin-left: 18%;
+    margin-top: 5px;
+  }
+  .pics{
+    position: relative;
+  }
+  .overlay{
+    position: absolute;
+    transition: 0.5s ease;
+    height: 250px;
+    width: 250px;
+    top: 0;
+    left: 80px;
+    background-color: rgba(209, 70, 70, 0.38);
+    opacity: 0;
+  }
+  .pics:hover .overlay{
+    opacity: 1;
+  }
+  .div1 img{
+    width: 100%;
+    height: 300px;
+  }
+  .div2{
+    background-color: rgb(207, 198, 198) ;
+    width: 100%;
+  }
+  .div2 h3{
+    text-align: center;
+    padding: 10px;
+  }
+  .div2 p{
+    padding: 15px;
+    text-align: justify;
+  }
+  .div2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .div2 h4{
+    margin-top: -12%;
+    margin-left: 24%;
+  }
+  #p1{
+    font-size: 10px;
+    margin-left: 21%;
+    margin-top: -6px;
+  }
+  .icon{
+    background-color: 	#DC143C;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    gap: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+  .threediv p{
+    background-color: 	#DC143C; 
+    color: white; 
+    width: 50px; 
+    height: 80px; 
+    text-align: center; 
+    padding: 8px;
+    margin-left: 15px;
+    margin-top: -20px;
+  }
+  .threediv h2{
+    text-align: center;
+  }
+  .threediv div{
+    margin: 15px;
+  }
+  .threediv img{
+    width: 250px;
+    
+  }
+  .ico{
+    margin-top: -20%;
+    margin-left: 40px;
+  }
+  .ico i{
+    color: grey;
+    font-size: 10px; 
+    margin-top: -80px;   
+  }
+  .threediv h5{
+    margin-top: -70px;
+    margin-left: 60px;
+  }
+  .threediv p{
+   margin-left: -1px;
+   margin-top: -4px;
+   }
+  .search {
+    background-color: 	#DC143C;
+    margin-top: 10px;
+  }
+  .search h2{
+    text-align: center;
+    padding: 15px;
+  }
+  .search input{
+    margin-left: 20%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .search button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .links{
+    background-color: rgb(11, 11, 36);
+    color: white;
+  }
+  .links h4{
+    text-align: center;
+    padding: 15px;
+  }
+  .links div li{
+    margin-left: 35%;
+    list-style-type: none;
+    padding: 2px;
+  }
+  .links div li i{
+    padding: 3px;
+  }
+  .follow i{
+    background-color: 	#DC143C;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .follow ul{
+    margin-left: 32%;
+  }
+  .footer{
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+   }
+
+  @media screen and (min-width:768px){
+    .main{
+      display: none;
+    }
+    .first i{
+      display: block;
+    }
+    h1{
+      margin-right: auto;
+    }
+    #downUl{
+      display: block;
+      margin-top: -20px;
+    }
+    .text2{
+      font-size: 50px;
+    }
+    .fade button{
+      margin-top: 130px;
+      padding: 12px;
+    }
+    .left{
+      float: left;
+      width: 50%;
+      height: 350px;
+    }
+    .right{
+      float: right;
+      width: 50%;
+      height: 350px;
+      margin-top: -1px;
+    }
+    .sixbox h2{
+      text-align: center;
+      padding: 20px;
+    }
+    .three-top div{
+      display: inline-block;
+      width: 230px;
+      margin: 8px;
+    }
+    .three-bottom div{
+      display: inline-block;
+      width: 230px;
+      margin: 8px;
+    }
+    .threebox div{
+      display: inline-block;
+      width: 240px;
+      margin: 4px;
+    }
+   .leftbox{
+    float: left;
+    width: 50%;
+    height: 350px;
+   }
+   .rightbox img{
+    float: right;
+    width: 50%;
+    height: 350px;
+   }
+   .threeimg div{
+    display: inline-block;
+    width: 240px;
+    margin: 10px;
+    margin-left: -18px;
+   }
+   .div1 img{
+    float: left;
+    width: 50%;
+    height: 350px;
+   }
+   .div2{
+    float: right;
+    width: 50%;
+    height: 350px;
+   }
+   .threediv h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+   }
+   .threediv div{
+    display: inline-block;
+    width: 200px;
+   }
+   .threediv img{
+    height: 180px;
+    margin: 15px;
+   }
+   .threediv p{
+    margin-top: -19px;
+    margin-left: 14px;
+   }
+   .threediv h5{
+    margin-top: -100px;
+    margin-left: 35%;
+   }
+   .ico{
+    margin-top: -40%;
+   }
+   .ico i{
+    margin-left: 30%;
+    font-size: 8px;
+   }
+   .search input{
+    margin-left: 35%;
+   }
+   .links div{
+    display: inline-block;
+    margin: 20px;
+   }
+   .links div li{
+    font-size: 8px;
+   }
+   .follow{
+    margin-top: -18%;
+    margin-left: 50%;
+   }
+   .follow ul{
+    margin-left: 30%;
+    margin-top: -10px;
+   }
+   .footer{
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+   }
+  }
+
+  @media  screen and (min-width:1024px) {
+    .main{
+      display: none;
+    }
+    .first i{
+      display: block;
+    }
+    h1{
+      margin-right: auto;
+    }
+    #downUl{
+      display: block;
+      margin-top: -20px;
+    }
+    .text2{
+      font-size: 50px;
+    }
+    .fade button{
+      margin-top: 130px;
+      padding: 12px;
+    }
+    .left{
+      float: left;
+      width: 50%;
+      height: 350px;
+    }
+    .right{
+      float: right;
+      width: 50%;
+      height: 350px;
+      margin-top: -1px;
+    }
+    .sixbox h2{
+      text-align: center;
+      font-size: 35px;
+      padding: 20px;
+    }
+    .three-top div{
+      display: inline-block;
+      width: 320px;
+      margin: 8px;
+    }
+    .three-bottom div{
+      display: inline-block;
+      width: 320px;
+      margin: 8px;
+    }
+    .threebox h2{
+      font-size: 35px;
+    }
+    .threebox div{
+      display: inline-block;
+      width: 320px;
+      margin: 4px;
+    }
+   .leftbox{
+    float: left;
+    width: 50%;
+    height: 350px;
+   }
+   .rightbox img{
+    float: right;
+    width: 50%;
+    height: 350px;
+   }
+   .threeimg h2{
+    font-size: 35px;
+    padding: 20px;
+   }
+   .threeimg div{
+    display: inline-block;
+    width: 340px;
+    margin: 5px;
+    margin-left: -18px;
+   }
+   .threeimg div img{
+    height: 300px;
+   }
+   .div1 img{
+    float: left;
+    width: 50%;
+    height: 350px;
+   }
+   .div2{
+    float: right;
+    width: 50%;
+    height: 350px;
+   }
+   .threediv div{
+    display: inline-block;
+    width: 300px;
+   }
+   .threediv img{
+    height: 180px;
+    margin: 8px;
+   }
+   .threediv p{
+    margin-top: -11px;
+    margin-left: 9px;
+   }
+   .threediv h5{
+    margin-top: -80px;
+    margin-left: 25%;
+   }
+   .ico{
+    margin-top: -150%;
+   }
+   .ico i{
+    margin-left: 30%;
+    font-size: 8px;
+   }
+   .search h2{
+    font-size: 30px;
+   }
+   .search input{
+    width: 320px;
+    padding: 12px;
+   }
+   .search button{
+    padding: 12px;
+   }
+  }
